@@ -135,13 +135,6 @@ int main(int argc, char *argv[])
         }
     }
 
-    int input = 500;
-    int result = 0;
-    {
-        int temp = sqrt(input) / 2;
-        result = temp > 12 ? 12 : temp;
-    }
-    
     // the value right below 1 => X
     // the left/right items of this point are only available after the 
     // second iteration of the loop. having all of them set in the same place
